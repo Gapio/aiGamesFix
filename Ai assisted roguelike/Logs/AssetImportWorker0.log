@@ -15,7 +15,7 @@ D:/Development/Unirty Hub/Projects/aiGamesFix/Ai assisted roguelike
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53312
+60000
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Development/Unirty Hub/Projects/aiGamesFix/Ai assisted roguelike
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19856]  Target information:
+Player connection [21592]  Target information:
 
-Player connection [19856]  * "[IP] 192.168.0.110 [Port] 0 [Flags] 2 [Guid] 2876546787 [EditorId] 2876546787 [Version] 1048832 [Id] WindowsEditor(7,deskh-toph) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21592]  * "[IP] 192.168.0.110 [Port] 0 [Flags] 2 [Guid] 2657139810 [EditorId] 2657139810 [Version] 1048832 [Id] WindowsEditor(7,deskh-toph) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19856] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19856] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21592] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21592] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.31f1 (a206c360e2a8)
 [Subsystems] Discovering subsystems at path D:/Development/Unirty Hub/Editor/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
@@ -96,40 +96,40 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Development/Unirty Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Development/Unirty Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003819 seconds.
-- Loaded All Assemblies, in  0.471 seconds
+Registered in 0.004877 seconds.
+- Loaded All Assemblies, in  0.594 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.418 seconds
-Domain Reload Profiling: 888ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  0.454 seconds
+Domain Reload Profiling: 1048ms
+	BeginReloadAssembly (238ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (176ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (238ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (162ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (198ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (418ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (454ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (383ms)
+		SetupLoadedEditorAssemblies (412ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (208ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -141,9 +141,9 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.014 seconds
+- Loaded All Assemblies, in  1.245 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -152,358 +152,134 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.285 seconds
-Domain Reload Profiling: 2298ms
-	BeginReloadAssembly (219ms)
+- Finished resetting the current domain, in  1.404 seconds
+Domain Reload Profiling: 2648ms
+	BeginReloadAssembly (267ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (691ms)
-		LoadAssemblies (461ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (854ms)
+		LoadAssemblies (575ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (369ms)
-			TypeCache.Refresh (238ms)
-				TypeCache.ScanAssembly (218ms)
-			BuildScriptInfoCaches (112ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1286ms)
+		AnalyzeDomain (465ms)
+			TypeCache.Refresh (306ms)
+				TypeCache.ScanAssembly (280ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1405ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1113ms)
+		SetupLoadedEditorAssemblies (1195ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (149ms)
-			ProcessInitializeOnLoadAttributes (808ms)
-			ProcessInitializeOnLoadMethodAttributes (141ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (862ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.39 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6938 unused Assets / (4.1 MB). Loaded Objects now: 7616.
-Memory consumption went from 171.2 MB to 167.1 MB.
-Total: 12.290700 ms (FindLiveObjects: 1.188900 ms CreateObjectMapping: 0.401200 ms MarkObjects: 7.445900 ms  DeleteObjects: 3.252200 ms)
+Unloading 6938 unused Assets / (4.5 MB). Loaded Objects now: 7617.
+Memory consumption went from 171.2 MB to 166.8 MB.
+Total: 16.511100 ms (FindLiveObjects: 1.439600 ms CreateObjectMapping: 0.947200 ms MarkObjects: 8.745600 ms  DeleteObjects: 5.376000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4361.487995 seconds.
-  path: Assets/Settings
-  artifactKey: Guid(0220aab0833d04faeb927d84ca6cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings using Guid(0220aab0833d04faeb927d84ca6cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a3b12d2a447acdb23dff58ad167bcd1') in 0.0070462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.254125 seconds.
-  path: Assets/Settings/Scenes
-  artifactKey: Guid(d574b2fb4661c408f80aa76c0182931f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Scenes using Guid(d574b2fb4661c408f80aa76c0182931f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '208d33276ab89d9e90bec41530e68a58') in 0.0006561 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.344349 seconds.
-  path: Assets/Settings/Build Profiles
-  artifactKey: Guid(83582d51e3b4c824c9ec1d8ea899041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Build Profiles using Guid(83582d51e3b4c824c9ec1d8ea899041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aad3bdbc9a680baa89dfd0ca1da980f') in 0.0216569 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019588 seconds.
-  path: Assets/Settings/Build Profiles/ExtendedVersion.asset
-  artifactKey: Guid(d25d1583307256442815d998772f4cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Build Profiles/ExtendedVersion.asset using Guid(d25d1583307256442815d998772f4cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07a21c8db5173c3794275a241d05e0e4') in 0.0227265 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.380402 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(d8c47fe3d336531488cc5223eabe1b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(d8c47fe3d336531488cc5223eabe1b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2df97712f6f8f7f233eb194551a4ff12') in 0.0005909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.354758 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/UI
-  artifactKey: Guid(1938857b251334aa9a15faa783140d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/UI using Guid(1938857b251334aa9a15faa783140d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '165c15090d9516ada66599ea1e2a9532') in 0.000626 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051948 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/UI/GameStyle.uss
-  artifactKey: Guid(48f3dc0636b880743a8f3ddce0f76c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/UI/GameStyle.uss using Guid(48f3dc0636b880743a8f3ddce0f76c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c831a9ea7e96d03654ce72b7b021c831') in 0.0165391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/UI/MainMenu.uxml
-  artifactKey: Guid(9292d0443f1fecc45885959480fa784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/UI/MainMenu.uxml using Guid(9292d0443f1fecc45885959480fa784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67b335e3f68791f0ee99b38e35fc9905') in 0.0544252 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.528694 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/UI/UI Toolkit
-  artifactKey: Guid(59ba763de77034442a910dada5380099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/UI/UI Toolkit using Guid(59ba763de77034442a910dada5380099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1358e4172464ac462686acb4ab5f4cc1') in 0.0007217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020307 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/UI/UI Toolkit/PanelSettings.asset
-  artifactKey: Guid(9603c8682d16845869c85bd41f68d78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/UI/UI Toolkit/PanelSettings.asset using Guid(9603c8682d16845869c85bd41f68d78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27c702c79599ce17148fc01d8e0629f6') in 0.0203763 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.198628 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/UI/UI Toolkit/UnityThemes
-  artifactKey: Guid(18b829f509c544713b71ddac48860ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/UI/UI Toolkit/UnityThemes using Guid(18b829f509c544713b71ddac48860ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '518679923f8d6cc35bd8d0a0a0d1f0ce') in 0.0006501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031616 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/UI/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss
-  artifactKey: Guid(2616707ad55a345d1bee6d31d40273e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/UI/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss using Guid(2616707ad55a345d1bee6d31d40273e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9da35da4c953ebb1f371487ed7c9e38b') in 0.6280228 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.310783 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes
-  artifactKey: Guid(d7a4509cdca4c244ab1a5d2605dcda0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes using Guid(d7a4509cdca4c244ab1a5d2605dcda0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5c95863772ec102b2e2a72780244912') in 0.0007666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.232098 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/Urban
-  artifactKey: Guid(52a267e0e5b3aef4997a26df8a3c7ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Urban using Guid(52a267e0e5b3aef4997a26df8a3c7ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fe0da60d35a1f5a69e62806be7e2029') in 0.0006627 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036811 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/UrbanLevelEnemies.asset
-  artifactKey: Guid(fd635f054fb442b4597120b2aa8c01be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Urban/UrbanLevelEnemies.asset using Guid(fd635f054fb442b4597120b2aa8c01be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b2579f8d1326a7cb2551fe86772c249') in 0.0063163 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/Urban/UrbanTheme.asset
-  artifactKey: Guid(f280cb2e72c0c8c469a0767819a22740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Urban/UrbanTheme.asset using Guid(f280cb2e72c0c8c469a0767819a22740) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a28c7733eb2d7fb4a17fcbea3223a49') in 0.0114242 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.765663 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/Urban 1
-  artifactKey: Guid(72c26c945d2161443a22dfa1083f532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Urban 1 using Guid(72c26c945d2161443a22dfa1083f532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12b78fcc8007e7046a937128c2646442') in 0.0025313 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.312147 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/Sand
-  artifactKey: Guid(b54203a5eba175c49b74a199818f8b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Sand using Guid(b54203a5eba175c49b74a199818f8b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd82b5c001be8ca05a8ace0f203282132') in 0.0071116 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.956612 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/Sand 1
-  artifactKey: Guid(f33bcce5abf365f4385ef262288c05d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Sand 1 using Guid(f33bcce5abf365f4385ef262288c05d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '109e030a28dca7798169d4bef150e00e') in 0.0005849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.986197 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI
-  artifactKey: Guid(f33bcce5abf365f4385ef262288c05d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI using Guid(f33bcce5abf365f4385ef262288c05d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e445ce1008df30ca12a098d3472fafcc') in 0.0005838 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.060740 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/SandLevelEnemies.asset
-  artifactKey: Guid(3f366e5dd73c8374b9775fc9d0b95ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/SandLevelEnemies.asset using Guid(3f366e5dd73c8374b9775fc9d0b95ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15c677577bfa6467b14f77c2a8fe43e5') in 0.0054346 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/SandTheme.asset
-  artifactKey: Guid(72185e05e8b8a81408c390b808e4daa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/SandTheme.asset using Guid(72185e05e8b8a81408c390b808e4daa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53e8a7feaa2b7f6263122a14c1e03545') in 0.0105052 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.062924 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/AiWorldSettings.asset
-  artifactKey: Guid(bd57721eb52276f4dace7b8811812e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/AiWorldSettings.asset using Guid(bd57721eb52276f4dace7b8811812e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '145a4c3f8d24aae7be6f15d69a5aebe5') in 0.0143077 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 94
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.235998 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/AiLevelEnemies.asset
-  artifactKey: Guid(3f366e5dd73c8374b9775fc9d0b95ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/AiLevelEnemies.asset using Guid(3f366e5dd73c8374b9775fc9d0b95ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b65e5d6542bcbe0f0e7abf83f48e5e80') in 0.0043491 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.973390 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/AiLevelItems.asset
-  artifactKey: Guid(1da99bf636b1c4c43b37e694ea125d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/AiLevelItems.asset using Guid(1da99bf636b1c4c43b37e694ea125d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd0fffd916d4f49a9a3c125520c96580') in 0.0039136 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.089258 seconds.
+  Time since last request: 17894.016573 seconds.
   path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/AiTheme.asset
   artifactKey: Guid(72185e05e8b8a81408c390b808e4daa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/AiTheme.asset using Guid(72185e05e8b8a81408c390b808e4daa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '360de0157cb940710c2f8a8d23671b26') in 0.0087447 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/AiTheme.asset using Guid(72185e05e8b8a81408c390b808e4daa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85afe156b5c56df6538ba2e82084f7c5') in 0.0562701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
 
 ========================================================================
 Received Import Request.
-  Time since last request: 64.599172 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/Sand/SandLevelEnemies.asset
-  artifactKey: Guid(94654ac4dd27463418bd63ec874f2c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Sand/SandLevelEnemies.asset using Guid(94654ac4dd27463418bd63ec874f2c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfb98c656adb35c2a7ca8813716b4b4c') in 0.005269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.939224 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/SnowTheme.asset
-  artifactKey: Guid(c3ba257faa4e1d648b276341563ff027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Snow/SnowTheme.asset using Guid(c3ba257faa4e1d648b276341563ff027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f88084ad07c153cd9977d5345589645') in 0.0079089 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.564052 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/SnowLevelItems.asset
-  artifactKey: Guid(4ef024abe2d63ca4c9385417a2eed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Snow/SnowLevelItems.asset using Guid(4ef024abe2d63ca4c9385417a2eed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b46576668403a9e3ce53654af530af5') in 0.0038627 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/AiLevelItems.asset
+  artifactKey: Guid(1da99bf636b1c4c43b37e694ea125d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/AiLevelItems.asset using Guid(1da99bf636b1c4c43b37e694ea125d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '801f17f8c5ece4730f719b613c38134d') in 0.0051547 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.696439 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/Snow/SnowLevelEnemies.asset
-  artifactKey: Guid(d54588d1292a2044f96e0b9182a478bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/Snow/SnowLevelEnemies.asset using Guid(d54588d1292a2044f96e0b9182a478bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88f2c8f3ed9903a2dd12dbd76cb56080') in 0.0064024 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.582009 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles
-  artifactKey: Guid(3f9c17c09a718044ab96c3de7cb704b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles using Guid(3f9c17c09a718044ab96c3de7cb704b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4739b93cbf14700baa82b0432c2a3b2') in 0.0006102 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.045923 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Assets_SpriteSheet3_0 1.asset
-  artifactKey: Guid(0a3a414cf6280c146b22615b3583f883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Assets_SpriteSheet3_0 1.asset using Guid(0a3a414cf6280c146b22615b3583f883) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e27f0074efb5e49c29fc2e327a87cddb') in 0.0594522 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Assets_SpriteSheet3_1 1.asset
-  artifactKey: Guid(387beb707485b914a84181e1650075ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Assets_SpriteSheet3_1 1.asset using Guid(387beb707485b914a84181e1650075ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57f719dc24f279212e31527a275d5b14') in 0.0140473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_39 1.asset
-  artifactKey: Guid(be32346d9a9925a4b9807d6c45b5373a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_39 1.asset using Guid(be32346d9a9925a4b9807d6c45b5373a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '898e900e9d1a2af3bb2cd8707452d4e7') in 0.0157109 seconds
+  Time since last request: 15.455789 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/AiTheme_11.asset
+  artifactKey: Guid(74bda2897f0d8a94ba15f254af4af94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/AiTheme_11.asset using Guid(74bda2897f0d8a94ba15f254af4af94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79962edfb3c5eaa5544f2a1817211ec1') in 0.087768 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_32 1.asset
-  artifactKey: Guid(a2ca72f18c7f7124397944e22034cea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_32 1.asset using Guid(a2ca72f18c7f7124397944e22034cea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8d6b8075027592dcb943a7162dc668f') in 0.0152561 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_36 1.asset
-  artifactKey: Guid(6eb03a37d997be84c887df886b91ddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_36 1.asset using Guid(6eb03a37d997be84c887df886b91ddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98f2705084a1dd515b7d61f4a80a6f12') in 0.0154481 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_34 1.asset
-  artifactKey: Guid(d0f9434547566ef40b7fd213f585649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_34 1.asset using Guid(d0f9434547566ef40b7fd213f585649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2fd8edcd788347b6f69b6da7a9c3dfb') in 0.0135609 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_29 2.asset
-  artifactKey: Guid(bf2ff73ef37bf7f4f995593dc7a90d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_29 2.asset using Guid(bf2ff73ef37bf7f4f995593dc7a90d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf04d253fbca0f683279365880b615db') in 0.0163561 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
   path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_35 1.asset
-  artifactKey: Guid(df1913262a630094c99bae51553a3ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_35 1.asset using Guid(df1913262a630094c99bae51553a3ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '308bde313ec4bda71ce7850370d5aa1f') in 0.0149625 seconds
+  artifactKey: Guid(32944b98022e8d1479cb951979094c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_35 1.asset using Guid(32944b98022e8d1479cb951979094c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0aee3e5ebef654aed434562493beaab9') in 0.0211733 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Assets_SpriteSheet3_1 1.asset
+  artifactKey: Guid(bbbfc82ea56397f42999a177f3c0d377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Assets_SpriteSheet3_1 1.asset using Guid(bbbfc82ea56397f42999a177f3c0d377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a65764b22ea52d59e857513a71ce4b4') in 0.012602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_29 1.asset
+  artifactKey: Guid(3151f29d3e5598344ac8719ed2fa8784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_29 1.asset using Guid(3151f29d3e5598344ac8719ed2fa8784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '303dd52a31f66f6d710af445e9312171') in 0.0117628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Assets_SpriteSheet3_0 2.asset
+  artifactKey: Guid(5f065f009c50bd54cbdf4e0d6f7722ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Assets_SpriteSheet3_0 2.asset using Guid(5f065f009c50bd54cbdf4e0d6f7722ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a015672b665a520619a68b36e26dbfc') in 0.0146231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_34 1.asset
+  artifactKey: Guid(430d39c171226db44a5c4470262c0c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_34 1.asset using Guid(430d39c171226db44a5c4470262c0c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dbb4946f374fdcbaf6b8bf3c5a760ce') in 0.0117074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_39 2.asset
+  artifactKey: Guid(65568989555a34745abb459bc1b5e9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Tiles/Scavengers2_SpriteSheet_39 2.asset using Guid(65568989555a34745abb459bc1b5e9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65c8364e09b3453027c57ea66712ac2d') in 0.0125276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.302376 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Prefabs/AiEnemy_2.prefab
+  artifactKey: Guid(650c90e38f749d543ac21962f7358fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Prefabs/AiEnemy_2.prefab using Guid(650c90e38f749d543ac21962f7358fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24f332cd779450c7ae601a62693efa1e') in 0.5754508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Roguelike2D/ExtendedVersion/Themes/AI/Prefabs/SandFood_Big.prefab
+  artifactKey: Guid(a71b1df4dfc7bd24aac7a66f05a7ad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Roguelike2D/ExtendedVersion/Themes/AI/Prefabs/SandFood_Big.prefab using Guid(a71b1df4dfc7bd24aac7a66f05a7ad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbdfd2b5da32227f70ef1fb793793d73') in 0.0190977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
