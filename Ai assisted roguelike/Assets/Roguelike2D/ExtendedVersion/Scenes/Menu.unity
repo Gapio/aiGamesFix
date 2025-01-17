@@ -232,6 +232,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8193381c0fcbe9547b8907272d4d5fa4, type: 2}
   - {fileID: 11400000, guid: 7509137f718be004f93a50a77b7b65ac, type: 2}
   - {fileID: 11400000, guid: 6fb8f306907ede84386601ed1602d11f, type: 2}
+  - {fileID: 11400000, guid: bd57721eb52276f4dace7b8811812e76, type: 2}
   BackgroundTilemap: {fileID: 931725570}
 --- !u!1 &931725567
 GameObject:
